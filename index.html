@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivekananda College Puttur - Welcome</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.jpeg" alt="Vivekananda College Logo" class="nav-logo-img">
+                <div class="nav-logo-text">
+                    <h2>Vivekananda College</h2>
+                    <span>Puttur</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#courses" class="nav-link">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#facilities" class="nav-link">Facilities</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Welcome to Vivekananda College Puttur</h1>
+                <p>Excellence in Education and Holistic Development for Students</p>
+                <div class="hero-buttons">
+                    <a href="#courses" class="btn btn-primary">Explore Courses</a>
+                    <button onclick="openChatbot()" class="btn btn-secondary">
+                        <i class="fas fa-robot"></i> Chat with Ribot
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/college.avif" alt="Vivekananda College Puttur Campus">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <p>Leading the way in higher education since our establishment</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Excellence in Education</h3>
+                    <p>Vivekananda College Puttur is committed to providing quality education and fostering holistic development of students. We focus on academic excellence, character building, and preparing students for successful careers.</p>
+                    <p>Our institution follows modern teaching methodologies combined with traditional values to ensure comprehensive learning experience for all our students.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>3+ Years</h4>
+                            <p>Course Duration</p>
+                        </div>
+                        <div class="stat">
+                            <h4>2</h4>
+                            <p>Semesters/Year</p>
+                        </div>
+                        <div class="stat">
+                            <h4>1.5 Hours</h4>
+                            <p>Class Duration</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/learning.jpeg" alt="Students Learning at Vivekananda College">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Courses</h2>
+                <p>Choose from our range of internationally recognized programs</p>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>BSc (Hons) Computing</h3>
+                    <p>Specialization in Information Technology with focus on modern computing practices</p>
+                    <ul>
+                        <li>3 Years Duration</li>
+                        <li>2 Semesters per Year</li>
+                        <li>Industry-focused Curriculum</li>
+                        <li>Practical Learning</li>
+                    </ul>
+                    <div class="course-fee">Fee: ₹30,000 per year</div>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>BCA (Computer Applications)</h3>
+                    <p>Bachelor of Computer Applications with comprehensive programming and software development focus</p>
+                    <ul>
+                        <li>3 Years Duration</li>
+                        <li>2 Semesters per Year</li>
+                        <li>Programming Skills</li>
+                        <li>Software Development</li>
+                    </ul>
+                    <div class="course-fee">Fee: ₹28,000 per year</div>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>BBA (Marketing)</h3>
+                    <p>Bachelor of Business Administration with Business Management specialization</p>
+                    <ul>
+                        <li>3 Years Duration</li>
+                        <li>2 Semesters per Year</li>
+                        <li>Business Skills</li>
+                        <li>Marketing Focus</li>
+                    </ul>
+                    <div class="course-fee">Fee: ₹25,000 per year</div>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>BBA (Accounting & Finance)</h3>
+                    <p>Bachelor of Business Administration with focus on Accounting and Finance</p>
+                    <ul>
+                        <li>3 Years Duration</li>
+                        <li>2 Semesters per Year</li>
+                        <li>Financial Skills</li>
+                        <li>Professional Training</li>
+                    </ul>
+                    <div class="course-fee">Fee: ₹27,000 per year</div>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>BBA (International Business)</h3>
+                    <p>Bachelor of Business Administration with International Business focus</p>
+                    <ul>
+                        <li>3 Years Duration</li>
+                        <li>2 Semesters per Year</li>
+                        <li>Global Perspective</li>
+                        <li>Business Strategy</li>
+                    </ul>
+                    <div class="course-fee">Fee: ₹32,000 per year</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Facilities</h2>
+                <p>State-of-the-art facilities for comprehensive learning experience</p>
+            </div>
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3>24 Hours Internet</h3>
+                    <p>High-speed internet connectivity available round the clock</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Library</h3>
+                    <p>Well-equipped library with extensive collection of books and resources</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h3>AC Classrooms</h3>
+                    <p>Air-conditioned classrooms for comfortable learning environment</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Discussion Rooms</h3>
+                    <p>Dedicated spaces for group discussions and collaborative learning</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Canteen</h3>
+                    <p>On-campus canteen serving healthy and nutritious meals</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-basketball-ball"></i>
+                    </div>
+                    <h3>Sports Facilities</h3>
+                    <p>Basketball, badminton, table tennis, chess, and carrom facilities</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us for any inquiries</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Vivekananda College Puttur<br>Karnataka, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 8:00 AM - 1:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91-8251-234567<br>+91-8251-765432</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Vivekananda College Puttur</h3>
+                    <p>Excellence in Education and Holistic Development for Students in Karnataka, India</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#facilities">Facilities</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="#">BSc (Hons) Computing</a></li>
+                        <li><a href="#">BCA (Computer Applications)</a></li>
+                        <li><a href="#">BBA (Marketing)</a></li>
+                        <li><a href="#">BBA (Accounting & Finance)</a></li>
+                        <li><a href="#">BBA (International Business)</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Puttur, Karnataka</p>
+                    <p><i class="fas fa-phone"></i> +91-8251-234567</p>
+                    <p><i class="fas fa-envelope"></i> info@vivekanandacollegeputtur.edu.in</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Vivekananda College Puttur. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div id="chatbot-widget" class="chatbot-widget">
+        <div class="chatbot-toggle" onclick="toggleChatbot()">
+            <i class="fas fa-robot"></i>
+        </div>
+        <div id="chatbot-container" class="chatbot-container">
+            <div class="chatbot-header">
+                <h4><i class="fas fa-robot"></i> Ribot - College Assistant</h4>
+                <button onclick="closeChatbot()" class="chatbot-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        Hello! I'm Ribot, your virtual assistant. I can help you with information about our college, courses, fees, facilities, and more. What would you like to know?
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatbot-input" placeholder="Ask me anything about the college..." onkeypress="handleChatbotInput(event)">
+                <button onclick="sendChatbotMessage()" class="chatbot-send">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
